@@ -1,4 +1,4 @@
-package com.in28minutes.rest.webservices.restfulwebservices.jwt.resource;
+package com.ecommerce.rest.webservices.restfulwebservices.jwt.resource;
 
 import java.io.Serializable;
 

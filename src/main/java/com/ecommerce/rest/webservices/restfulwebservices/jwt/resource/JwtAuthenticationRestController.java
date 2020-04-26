@@ -1,4 +1,4 @@
-package com.in28minutes.rest.webservices.restfulwebservices.jwt.resource;
+package com.ecommerce.rest.webservices.restfulwebservices.jwt.resource;
 
 import java.util.Objects;
 
@@ -21,11 +21,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.in28minutes.rest.webservices.restfulwebservices.jwt.JwtTokenUtil;
-import com.in28minutes.rest.webservices.restfulwebservices.jwt.JwtUserDetails;
+import com.ecommerce.rest.webservices.restfulwebservices.jwt.JwtTokenUtil;
+import com.ecommerce.rest.webservices.restfulwebservices.jwt.JwtUserDetails;
 
 @RestController
-//@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://localhost:4200")
 public class JwtAuthenticationRestController {
 
 	@Value("${jwt.http.request.header}")

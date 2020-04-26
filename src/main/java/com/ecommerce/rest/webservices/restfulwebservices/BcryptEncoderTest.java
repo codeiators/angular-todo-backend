@@ -1,4 +1,4 @@
-package com.in28minutes.rest.webservices.restfulwebservices;
+package com.ecommerce.rest.webservices.restfulwebservices;
 
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
